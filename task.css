@@ -1,0 +1,109 @@
+nav{
+    background-color: black;
+    color:yellowgreen;
+}
+i{
+    margin-left: 15px;
+    padding: 5px;
+}
+.contact{
+    margin-left: 700px;
+    
+}
+.a1,.a2{
+    color:white;
+    text-decoration: none;
+}
+.nav2{
+    background-color: white;
+    
+}
+.a3,li,a{
+    color:black;
+    display:inline;
+   margin-right: 10px;
+   text-decoration: none;
+    
+}
+.a3{
+    margin-left: 500px;
+}
+#logo{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover{
+    background-color: yellowgreen;
+    color:white;
+
+}
+h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    text-align: center;
+}
+section{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card{
+    height:200px;
+    width:250px; 
+    background-color:white ; 
+    border:1px solid white;
+    box-shadow:  0px 0px 8px 5px rgba(0, 0, 0, .4);
+}
+.card ,i{
+    text-align: center;
+    font-size: 25px;
+}
+.card,.p1{
+    font-size: 15px;
+    text-align:center;
+}
+.chead{
+    text-decoration:underline;
+    text-decoration-style:solid;
+    text-decoration-color: yellowgreen;    
+    
+}
+.div1{
+    background-color: yellowgreen;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card2{
+    height:360px;
+    width:250px; 
+    background-color:white ; 
+    border:1px solid black;
+    box-shadow:  0px 0px 8px 5px rgba(0, 0, 0, .4);
+    text-align: center;
+}
+.card2:hover{
+    box-shadow:  0px 0px 8px 5px rgba(0, 0, 0, .6);
+    transform: scale(1.1);
+}
+.body{
+    background-image: url(17.webp);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:yellowgreen;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: end;
+    
+    
+}
